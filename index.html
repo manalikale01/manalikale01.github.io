@@ -1,1 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manali Kale</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="margin-rule" aria-hidden="true"></div>
+
+<header class="site-header">
+  <p class="tag">PORTFOLIO &mdash; FIELD NOTES</p>
+  <h1>Manali Kale</h1>
+  <p class="role">Computer Science · Finance &amp; Math Minor · Saint Louis University</p>
+  <nav class="site-nav" aria-label="Section navigation">
+    <a href="#about">about</a>
+    <a href="#experience">experience</a>
+    <a href="#projects">projects</a>
+    <a href="#skills">skills</a>
+    <a href="#resume">resume</a>
+    <a href="#contact">contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section id="about" class="section">
+    <p class="tag">01 &mdash; ABOUT</p>
+    <p class="lede">
+      Most of my week splits between two things that don't usually share a room: testing
+      flight simulation software in a research lab, and tearing apart a company's financial
+      statements to see if the numbers back up the hype.
+    </p>
+    <p class="body-text">
+      I am a Computer Science student at Saint Louis University, minoring in Finance and
+      Mathematics, currently in my second year and just back from a semester at SLU's
+      Madrid campus. I got into CS because I liked building things that worked, and into
+      finance because I liked figuring out whether things that <em>sounded</em> good actually
+      were. Turns out both fields reward the same instinct: don't trust the headline, check
+      the math.
+    </p>
+    <p class="body-text">
+      Outside of that, I tutor calculus and physics, debated competitively in high school,
+      and I'm always up for a good cooking project on a weekend with nothing else going on.
+    </p>
+  </section>
+
+  <section id="experience" class="section">
+    <p class="tag">02 &mdash; EXPERIENCE</p>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Undergraduate Research Assistant</h3>
+        <span class="entry-date">Sep 2025 &mdash; Present</span>
+      </div>
+      <p class="entry-org">AirCRAFT Lab, Saint Louis University Research Institute</p>
+      <ul class="entry-list">
+        <li>Run test cycles on NAVIS, a VR-based UAS simulation platform, and keep the data clean enough that someone else could trust it without re-checking my work.</li>
+        <li>Co-authored a paper <span class="annotation">accepted to AIAA Aviation Forum 2026</span>, turning a season of test logs into an actual argument.</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Academic Tutor, Calculus &amp; Physics</h3>
+        <span class="entry-date">Sep 2025 &mdash; Present</span>
+      </div>
+      <p class="entry-org">SLU Student Success Center</p>
+      <ul class="entry-list">
+        <li>Notice where a student actually gets stuck (rarely where they think) and teach to that instead of repeating the textbook.</li>
+        <li>Put together study guides and progress notes built around each student, not a one-size-fits-all packet.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="projects" class="section">
+    <p class="tag">03 &mdash; PROJECTS</p>
+
+    <article class="entry project">
+      <div class="entry-head">
+        <h3>Equity Research &amp; Financial Analysis &mdash; Apple Inc. (AAPL)</h3>
+        <span class="entry-date">May 2026</span>
+      </div>
+      <p class="entry-org">Excel &middot; S&amp;P Capital IQ &middot; PowerPoint</p>
+      <p class="body-text">
+        Apple puts out a lot of headlines about how well it's doing. I wanted to know if
+        the financials actually agreed, so I went line by line through the FY2024&ndash;FY2025
+        income statement, balance sheet, and cash flow statement to find out.
+      </p>
+      <div class="stat-row">
+        <div class="stat"><span class="stat-num">16+</span><span class="stat-label">ratios calculated</span></div>
+        <div class="stat"><span class="stat-num">19.5%</span><span class="stat-label">net income growth</span></div>
+        <div class="stat"><span class="stat-num">46.9%</span><span class="stat-label">gross margin</span></div>
+        <div class="stat"><span class="stat-num">$96.7B</span><span class="stat-label">returned to shareholders</span></div>
+      </div>
+      <p class="body-text">
+        The numbers held up. Landed on a <strong>BUY</strong> call, backed by the ratio work
+        and a risk assessment, not a hunch.
+      </p>
+    </article>
+  </section>
+
+  <section id="skills" class="section">
+    <p class="tag">04 &mdash; SKILLS</p>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <p>Python, Java, C++, HTML/CSS, PHP, MATLAB</p>
+      </div>
+      <div class="skill-group">
+        <h4>CS concepts</h4>
+        <p>Data structures &amp; algorithms, OOP, MVC, system design, debugging</p>
+      </div>
+      <div class="skill-group">
+        <h4>Data &amp; finance</h4>
+        <p>Excel (MOS certified), S&amp;P Capital IQ, financial modeling, ratio analysis</p>
+      </div>
+      <div class="skill-group">
+        <h4>Tools</h4>
+        <p>Git, GitHub, Linux, VS Code, Unreal Engine 4, MAVSDK, PX4, QGroundControl</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section resume-section">
+    <p class="tag">05 &mdash; RESUME</p>
+    <p class="body-text">
+      Everything above, plus certifications and coursework, in one PDF.
+    </p>
+    <a href="resume.pdf" class="resume-button" download>
+      Download resume
+      <span class="resume-button-arrow" aria-hidden="true">&darr;</span>
+    </a>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <p class="tag">06 &mdash; CONTACT</p>
+    <p class="body-text">
+      Happy to talk research, finance, or anything in between.
+    </p>
+    <div class="contact-links">
+      <a href="mailto:manali.kale@yahoo.com">manali.kale@yahoo.com</a>
+      <a href="https://linkedin.com/in/manalimohankale" target="_blank" rel="noopener">linkedin.com/in/manalimohankale</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Saint Louis, MO</p>
+</footer>
+
+</body>
+</html>
